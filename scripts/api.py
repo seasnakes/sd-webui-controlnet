@@ -14,7 +14,7 @@ from modules.api import api
 
 from scripts import external_code
 from scripts.processor import *
-
+# 编码base64
 def encode_to_base64(image):
     if type(image) is str:
         return image
